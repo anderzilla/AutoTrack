@@ -12,5 +12,9 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 # Copia o restante do código
 COPY . .
 
-# Executa Alembic antes de iniciar o servidor
-CMD ["sh", "-c", "alembic upgrade head && uvicorn main:app --host 0.0.0.0 --port 8000"]
+# Copia o entrypoint e dá permissão de execução
+COPY entrypoint.sh /app/entrypoint.sh
+RUN chmod +x /app/entrypoint.sh
+
+# Comando para iniciar o container
+CMD ["/app/entrypoint.sh"]

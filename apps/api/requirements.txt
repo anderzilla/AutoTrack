@@ -7,3 +7,7 @@ python-multipart
 passlib[bcrypt]
 python-jose
 alembic
+pytest
+pytest-asyncio
+httpx
+pytest-cov
