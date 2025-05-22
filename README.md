@@ -96,7 +96,7 @@ docker-compose exec api pytest tests --asyncio-mode=auto
 
 Desenvolvido por Anderson Henrique Gonçalves  
 GitHub: https://github.com/anderzilla  
-LinkedIn: https://www.linkedin.com/in/andersonhg
+LinkedIn: https://www.linkedin.com/in/andersonhenriquegoncalves
 
 ---
 
