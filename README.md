@@ -57,22 +57,23 @@ docker-compose up --build
 
 ## 🔍 Estrutura atual
 
-├── alembic/
-├── alembic.ini
-├── auth.py
-├── database.py
-├── Dockerfile
-├── entrypoint.sh
-├── main.py
-├── models.py
-├── requirements.txt
-├── schemas.py
-├── tests/
-│   ├── conftest.py
-│   ├── test_cars.py
-│   ├── test_user_profiles.py
-│   └── test_users.py
-└── docker-compose.yml
+
+├── alembic/  
+├── alembic.ini  
+├── auth.py  
+├── database.py  
+├── Dockerfile  
+├── entrypoint.sh  
+├── main.py  
+├── models.py  
+├── requirements.txt  
+├── schemas.py  
+├── tests/  
+│   ├── conftest.py  
+│   ├── test_cars.py  
+│   ├── test_user_profiles.py  
+│   └── test_users.py  
+└── docker-compose.yml  
 
 ---
 
